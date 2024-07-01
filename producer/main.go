@@ -30,7 +30,7 @@ func main() {
 		"x-queue-type": "stream",
 		// each segment file is allowed 0.03MB
 		"x-stream-max-segment-size-bytes": 30000,
-		// total stream size is 0.15MB
+		// total stream size is allowed 0.15MB
 		// whenever we overflow this, we will start deleting
 		// oldest segment
 		"x-max-length-bytes": 150000,
